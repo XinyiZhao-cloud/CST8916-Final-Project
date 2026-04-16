@@ -147,7 +147,7 @@ Hosts the dashboard for public access.
 ## Repository Links
 - Sensor Simulation: https://github.com/XinyiZhao-cloud/rideau-canal-sensor-simulation/
 - Web Dashboard: https://github.com/XinyiZhao-cloud/rideau-canal-dashboard
-- Live Deployment: https://cst8916-rideau-canal-dashboard-xyz-c7hab3gybsejh7cq.eastus2-01.azurewebsites.net
+- Live Deployment: https://cst8916-rideau-canal-dashboard-xyz-c7hab3gybsejh7cq.eastus2-01.azurewebsites.net  
 ⚠️Note: _The live dashboard was deployed and demonstrated successfully. Resources were removed after testing to avoid unnecessary cloud costs._
 
 ## Video Demonstration
@@ -164,7 +164,7 @@ Hosts the dashboard for public access.
 2.	Configure Stream Analytics job
 3.	Deploy Cosmos DB and Blob Storage
 4.	Run sensor simulator
-5.	Start dashboard application
+5.	Start the dashboard application
 Detailed setup instructions are available in the individual repositories.
 - Web Dashboard: https://github.com/XinyiZhao-cloud/rideau-canal-dashboard
 - Sensor Simulation: https://github.com/XinyiZhao-cloud/rideau-canal-sensor-simulation/
@@ -172,7 +172,7 @@ Detailed setup instructions are available in the individual repositories.
 ## Results and Analysis
 
 ### Sample Outputs
-- Real-time sensor data displayed on dashboard
+- Real-time sensor data displayed on the dashboard
 - Aggregated metrics stored in Cosmos DB
 - Historical data stored in Blob Storage
 
@@ -199,7 +199,7 @@ Each component was validated independently. IoT Hub metrics were used to confirm
 
 ### Challenge 3: GitHub security restrictions
 
-During repository submission, pushes were blocked by GitHub due to the presence of sensitive information such as connection strings in committed files.
+During repository submission, pushes were blocked by GitHub due to the presence of sensitive information, such as connection strings, in committed files.
 
 **Solution:**  
 Sensitive data was removed from the repository and stored in environment variables using `.env` files. A `.env.example` file was created to provide configuration guidance without exposing secrets. Additionally, commit history was cleaned to remove previously committed credentials, ensuring compliance with GitHub security policies.
@@ -216,7 +216,7 @@ These challenges improved understanding of cloud deployment, debugging distribut
 
 ## AI Tools Disclosure
 - **Tool:** ChatGPT
-- **Purpose:** Code generation, debugging errors, improving documentation and refine explanations
+- **Purpose:** Code generation, debugging errors, improving documentation and refining explanations
 - All final implementation, configuration, and testing were completed and validated independently.
 
 ## References
