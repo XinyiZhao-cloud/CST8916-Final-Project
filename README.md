@@ -151,7 +151,7 @@ Hosts the dashboard for public access.
 ⚠️Note: _The live dashboard was deployed and demonstrated successfully. Resources were removed after testing to avoid unnecessary cloud costs._
 
 ## Video Demonstration
-- YouTube (Unlisted): YOUR_VIDEO_LINK
+- YouTube (Unlisted): https://youtu.be/IurUq6mk37M
 
 ## Setup Instructions
 ### Prerequisites
