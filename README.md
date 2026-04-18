@@ -177,9 +177,10 @@ Detailed setup instructions are available in the individual repositories.
 - Historical data stored in Blob Storage
 
 ### Observations
-- The system successfully processes streaming data in near real time
-- Aggregation using tumbling windows provides stable insights
-- Dashboard reflects safety conditions clearly across locations
+- The system successfully processes streaming data in near real time, showing low latency across the pipeline
+- Tumbling window aggregation reduces noise and provides more stable and reliable insights
+- The dashboard clearly visualizes safety conditions, making the data easy to interpret across locations
+- The architecture supports scalability, meaning more sensors or locations can be added without major changes.
 
 ## Challenges and Solutions
 
